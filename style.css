@@ -1,8 +1,81 @@
+body {
+    margin: 0px;
+    color: white;
+}
+
 #header-img {
     width: 150px;
     height: 100px;;
 }
+#header {
+    position: fixed;
+    width: 100%;
+}
+
 #encabezado {
     display: flex;
+    background-color: #000000;
+    justify-self: right;
+}
+
+#nav-bar {
+    display: flex;
     flex-direction: row;
+    align-items: flex-end;
+    margin-left: auto;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+#bienvenida {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    padding-bottom: 2em;/*no puedo hacer que quede en el centro*/
+    padding-left: 33%;
+}
+
+#img-2 {
+    width: 50%;
+    height: 35%;
+}
+
+#descripcion {
+    display: flex; 
+    flex-direction: column;
+    background-color: #2A2D34;
+    padding-bottom: 2em;
+    align-items: center;
+}
+
+#account {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    align-items: center;/*esta centrando la columna no la linea!!!!!!!*/
+
+}
+
+
+@media screen and (min-width: 840px) and (max-width: 1450px){
+
+}
+
+@media screen and (min-width: 840px) and (max-width: 1350px){
+
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+
+}
+
+@media screen and (max-width: 480px){
+
 }

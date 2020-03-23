@@ -11,30 +11,35 @@
         <div id="encabezado">
             <img id="header-img" src="inkthegallery.PNG">
             <nav id="nav-bar">
-                <a class="nav-link" href="#encabezado">link 1</a><!--Home-->
-                <a class="nav-link" href="#descripcion">link 2</a><!--descripcion de la pagina-->
-                <a class="nav-link" href="#account">link 3</a><!--registro-->
+                <a class="nav-link" href="#encabezado">Home </a><!--Home-->
+                <a class="nav-link" href="#descripcion">Welcome </a><!--descripcion de la pagina-->
+                <a class="nav-link" href="#account">Account </a><!--registro-->
             </nav>
         </div>
+    </header>
+
         <div id="bienvenida">
             <div class="titulo">
                 <h1 id="title">Ink The Gallery</h1>
                 <p id="description">Landing Page</p>
+                <img id="img-2" src="inkthegallery.PNG">
             </div>
         </div>
+
         <div id="descripcion">
             <h2>WELCOME TO THE INK THE GALLERY</h2>
             <P>Breve descripcion sobre la pagina y su contenido</P>
             <video id="video"src="video.mp4" autoplay muted loop></video>
         </div>
+        
         <div id="account">
             <p>create your account here</p>
-            <form id="form">
-                <input type="email" id="email" placeholder="email">
-                <input type="submit" id="submit" href="https://www.freecodecamp.org/email-submit"></input>
+            <form id="form" action="https://www.freecodecamp.org/email-submit">
+                <input type="email" name="email" id="email" placeholder="email">
+                <input type="submit" id="submit"></input><!--no funciona-->
             </form>
         </div>
-    </header>
+    
 
 
     <script src="test.js"></script>
