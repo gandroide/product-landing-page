@@ -33,17 +33,14 @@ body {
 
 #bienvenida {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
-    align-items: center;
-    padding-top: 7em;
-    padding-bottom: 8em;
-    padding-left: 0%;
+    padding: 2em;
+    padding-top: 8em;
 }
 
 #img-perfil {
-    width: 20em;/*no funciona*/
-
+    width: 20em;
 }
 
 .titulo {
@@ -51,13 +48,15 @@ body {
     text-align: center;
 }
 
-#bienvenida p {
-    text-align: justify;
-    width: 80%;
-    padding: 1em;
-    color: black;
-    border: 5px solid gray;
+#izquierda {
+    padding-left: 17em;
+}
 
+#derecha {
+    text-align: justify;
+    color: black;
+    width: 50%;
+    margin-left: 2em;
 }
 
 #descripcion {
